@@ -1,4 +1,3 @@
-import Puzzle8Start.Node;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.HashSet;
@@ -44,11 +43,11 @@ public class SearchTree {
                 long endTime = System.nanoTime();
                 double durationInSeconds = (endTime - startTime) / 1e9;
 
-                System.out.println("=== ¡SOLUCIÓN ENCONTRADA (BFS)! ===");
+                System.out.println("=======================================");
                 System.out.println("Nodos evaluados (desplegados): " + evaluatedNodes);
                 System.out.println("Profundidad de la solución: " + currentNode.getDepth());
                 System.out.printf("Tiempo transcurrido: %.6f segundos%n", durationInSeconds);
-                System.out.println("\n--- Pasos para la solución ---");
+                System.out.println("\n====== Pasos para la solución =======");
                 printPath(currentNode);
                 return;
             }
