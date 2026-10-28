@@ -129,4 +129,19 @@ public class SearchTree {
             step++;
         }
     }
+
+    public void depthFirstSearch(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'depthFirstSearch'");
+    }
+
+    public void depthLimitedSearch(int i, boolean b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'depthLimitedSearch'");
+    }
+
+    public void iterativeDeepeningSearch(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'iterativeDeepeningSearch'");
+    }
 }
