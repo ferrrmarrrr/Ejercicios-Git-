@@ -1,5 +1,8 @@
+
 import java.util.ArrayList;
 import java.util.List;
+
+import src.Node;
 
 public class Node implements Comparable<Node> {
     private String state;
